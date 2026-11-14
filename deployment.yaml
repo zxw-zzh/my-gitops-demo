@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: my-nginx-app
 spec:
-  replicas: 2   # 注意这里：初始副本数为 2
+  replicas: 5   # 注意这里：初始副本数为 2
   selector:
     matchLabels:
       app: nginx-demo
