@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: rollouts-demo
-        image: argoproj/rollouts-demo:blue   # 初始部署“蓝色”版本
+        image: argoproj/rollouts-demo:yellow   # 初始部署“蓝色”版本
         ports:
         - name: http
           containerPort: 8080
